@@ -37,9 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'restaurant',
     'rest_framework',
     'rest_framework.authtoken',
+    'restaurant',
     'djoser',
 ]
 
@@ -81,8 +81,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'LittleLemon',
-        'USERNAME': 'root',
-        'PASSWORD': 'OSO.luismario.brisa.16',
+        'USERNAME': 'admindjango',
+        'PASSWORD': 'employee@123!',
         'HOST': 'localhost',
         'PORT': '3306',
     }
